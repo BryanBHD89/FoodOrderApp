@@ -1,0 +1,45 @@
+.nav-container {
+  height: 5rem;
+  background: #ca6702;
+  box-shadow: 0px 3px #ee9b00;
+  font-family: "Merienda", cursive;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.cart-Button {
+  border: none;
+  font-family: "Merienda", cursive;
+  border-radius: 10px;
+  padding: 0.7rem 3rem;
+  background-color: #bb3e03;
+  color: whitesmoke;
+}
+
+.cart-Button:hover {
+  background-color: #ee9b00;
+}
+
+.cart-Button:focus {
+  border: 1px solid black;
+  box-shadow: 2px 1px black;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart-Button {
+    padding: 0.3rem 1.5rem;
+  }
+  .nav-title {
+    font-size: 1.5rem;
+  }
+}

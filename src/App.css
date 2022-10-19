@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+.app-container {
+  background-color: black;
+  height: 100%;
+}
+
+.background-image {
+  border-bottom-right-radius: 100% 80%;
+  width: 100%;
+  object-fit: cover;
+  height: 35vh;
+}
+
+.header {
+  font-size: 1rem;
+  color: white;
+  margin-top: -6rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem 5rem;
+  background-color: #ee9b00;
+  box-shadow: 5px 5px 10px #e9d8a6;
+  width: 20rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 5rem;
+    font-size: 0.7rem;
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: none;
+  }
+}

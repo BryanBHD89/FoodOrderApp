@@ -1,0 +1,52 @@
+.menu-container {
+  color: black;
+  position: relative;
+  background: whitesmoke;
+  width: 50%;
+  margin: auto auto;
+  margin-top: 18rem;
+  border-radius: 20px;
+  padding: 2rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.menu-button-container {
+  align-self: center;
+  background-color: #ca6702;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+.menu-button-container:hover {
+  background: #bb3e03;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-container {
+    width: 5rem;
+    font-size: 0.7rem;
+    width: auto;
+    margin-top: 12rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

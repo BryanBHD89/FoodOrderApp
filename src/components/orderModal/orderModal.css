@@ -1,0 +1,83 @@
+.order-form {
+  background-color: blue;
+}
+
+.orderModalBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderModal {
+  color: black;
+  background-color: whitesmoke;
+  position: absolute;
+  width: 50rem;
+  padding: 5rem 10rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 50px 15px #ee9b00;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: bold;
+}
+
+.orderModal label {
+  margin-top: 2rem;
+}
+
+.closeOrderModal {
+  color: black;
+  width: 2rem;
+  background-color: #bb3e03;
+  color: whitesmoke;
+  border: none;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.orderPlaced {
+  text-align: center;
+}
+
+.closeOrderModal:hover {
+  background-color: #ee9b00;
+}
+
+.submitOrder {
+  border: none;
+  background-color: #bb3e03;
+  margin-right: 3px;
+  padding: 0.2rem 0.5rem;
+  height: 50%;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.submitOrder:hover {
+  background-color: #ee9b00;
+}
+
+@media only screen and (max-width: 850px) {
+  .orderModal {
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .orderModal {
+    width: 15rem;
+    font-size: 0.7rem;
+  }
+}
